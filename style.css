@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navs {
+  margin: 100px auto;
+}
+
+.clock , .stop{
+  font-size: 2rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+#hours, #minutes, #seconds, #ampm, #stopWatchMinutes ,#stopWatchMilliseconds ,#stopWatchSeconds {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+#hours{
+  color: red;
+}
+#minutes{
+  color: blue;
+}
+#seconds{
+  color: pink;
+}
+#startTimer{
+  margin: 10px auto;
+}
+#stopWatch{
+  margin-left: 20px;
+}
+.buts{
+  margin: 10px auto;
+}
